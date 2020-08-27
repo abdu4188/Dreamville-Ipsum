@@ -37,7 +37,7 @@
     </div>
     <div class="text-center">
       <div v-show="lyricsFetched" style="z-index: 2" class="box">
-        <div class="copy-tab" @click="copyText">
+        <div class="copy-tab" style="z-index: 2" @click="copyText">
           <p class="copy">
             Copy
           </p>
@@ -105,11 +105,11 @@ export default {
           path: 'bas.jpg'
         },
         {
-          name: 'Ari',
+          name: 'Ari Lennox',
           path: 'ari.jpeg'
         },
         {
-          name: 'J cole',
+          name: 'J. Cole',
           path: 'jcole.jpg'
         },
         {
@@ -121,7 +121,7 @@ export default {
           path: 'lute.jpeg'
         },
         {
-          name: 'EarthGang',
+          name: 'EARTHGANG',
           path: 'earthgang.jpg'
         },
         {
