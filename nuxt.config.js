@@ -37,6 +37,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/particles.js', mode: 'client' },
+    { src: '~/plugins/Vuelidate' }
   ],
   /*
   ** Auto import components
@@ -49,7 +51,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
@@ -58,6 +60,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Axios module configuration

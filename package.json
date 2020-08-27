@@ -1,5 +1,5 @@
 {
-  "name": "jcole-ipsum",
+  "name": "dreamville-ipsum",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,11 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.13.0"
+    "bootstrap-vue": "2.15.0",
+    "gsap": "3.4.2",
+    "nuxt": "^2.13.0",
+    "particles.js": "2.0.0",
+    "vuelidate": "0.7.5"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
@@ -22,6 +26,7 @@
     "@nuxtjs/vuetify": "^1.11.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0",
-    "eslint-plugin-nuxt": "^1.0.0"
+    "eslint-plugin-nuxt": "^1.0.0",
+    "vue-particles": "1.0.9"
   }
 }

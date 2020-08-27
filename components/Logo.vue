@@ -2,14 +2,14 @@
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="/icon.png"
+    src="/dreamville.jpg"
   >
 </template>
 
 <style>
 .VuetifyLogo {
-  height: 180px;
-  width: 180px;
+  height: 100px;
+  width: 190px;
   transform: rotateY(560deg);
   animation: turn 3.5s ease-out forwards 1s;
 }
