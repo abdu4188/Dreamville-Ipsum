@@ -38,7 +38,8 @@ export default {
   */
   plugins: [
     { src: '@/plugins/particles.js', mode: 'client' },
-    { src: '~/plugins/Vuelidate' }
+    { src: '~/plugins/Vuelidate' },
+    { src: '~/plugins/VueClipboard' }
   ],
   /*
   ** Auto import components

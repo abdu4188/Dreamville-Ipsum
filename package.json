@@ -1,5 +1,5 @@
 {
-  "name": "dreamville-ipsum",
+  "name": "Dreamville-Ipsum",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -18,6 +18,7 @@
     "gsap": "3.4.2",
     "nuxt": "^2.13.0",
     "particles.js": "2.0.0",
+    "vue-clipboard2": "0.3.1",
     "vuelidate": "0.7.5"
   },
   "devDependencies": {
