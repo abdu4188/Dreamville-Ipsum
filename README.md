@@ -1,4 +1,7 @@
-# dreamville-ipsum
+# Dreamville-Ipsum
+This is another random site on the web that lets you generate random texts from your choice of J. Coles dreamville artists.
+
+https://github.com/johnwmillr/LyricsGenius was used to scrap the lyrics off from https://genius.com/ .
 
 ## Build Setup
 
@@ -17,4 +20,9 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## To get new lyrics
+```bash
+pip3 install -r requirements.txt 
+python3 getSongs.py
+```
+Inspired by https://github.com/rfoel/drake-ipsum
